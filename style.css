@@ -1,0 +1,47 @@
+
+.espn{
+    color: aliceblue;
+    background-color: red;
+}
+ul {
+    border: 2px solid rgb(73, 72, 73);
+    padding: .5em;
+    background-color: rgb(44, 42, 42);
+  }
+
+  ol {
+    color: black;
+    border: 2px solid rgb(73, 72, 73);
+    padding: .5em;
+    
+  }
+span,  
+  li {
+    color: aliceblue;
+    /* border: 2px solid blue; */
+    padding: .5em;
+    
+  }
+  
+  ul {
+
+    display: flex;
+    list-style: none;
+  }
+  ol {
+    
+    display: flex;
+    list-style: none;
+  }
+ ol>li{
+    color: black;
+  }
+  .primer{
+    border: 2px solid gray;
+    justify-content: space-around;
+  }
+  .tercer{
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+ 

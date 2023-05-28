@@ -44,4 +44,14 @@ span,
     margin-left: 25%;
     margin-right: 25%;
   }
- 
+ #pond{
+    display: inline;
+    justify-content: space-between;
+ }
+ .terms {
+  display: flex;
+}
+
+.terms > p {
+  margin: 1;
+}

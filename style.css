@@ -1,4 +1,12 @@
-
+@media(min-width:468px){
+  span,  
+  li {
+    color: aliceblue;
+    /* border: 2px solid blue; */
+    padding: .5em;
+    
+  }
+}
 .espn{
     color: aliceblue;
     background-color: red;
@@ -15,13 +23,7 @@ ul {
     padding: .5em;
     
   }
-span,  
-  li {
-    color: aliceblue;
-    /* border: 2px solid blue; */
-    padding: .5em;
-    
-  }
+
   
   ul {
 

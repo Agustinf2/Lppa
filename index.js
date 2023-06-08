@@ -22,3 +22,7 @@ function subtract(){
     sumEl.textContent = resta
     //sumEl.innerText = num1 - num2
 }
+
+//<option value="">Opcion 3</option>
+//<option value="">Opcion 4</option>
+//<option value="">Opcion 5</option>

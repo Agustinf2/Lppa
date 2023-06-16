@@ -34,3 +34,6 @@ let messages = [
     "I'm great, thank you! How about you?",
     "All good. Been working on my portfolio lately.",
     "Same here"
+] 
+
+

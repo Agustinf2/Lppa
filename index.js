@@ -35,3 +35,15 @@ let castle = {
 
 console.log(castle.price)
 console.log(castle.isSuperHost)
+
+let experience = ["Mary Leiva",
+"4to de facultad",
+"i can program in c# or javascript"]
+
+console.log (experience [1])
+
+
+let mySelf = [
+    "Agustin Faucetta",
+    23,
+]

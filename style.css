@@ -11,12 +11,50 @@
     color: aliceblue;
     background-color: red;
 }
-ul {
-    border: 2px solid rgb(73, 72, 73);
-    padding: .5em;
-    background-color: rgb(44, 42, 42);
-  }
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  justify-content: space-around;
+}
 
+/* Style the topnav links */
+.topnav a {
+  
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  justify-content: space-around;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.midnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.midnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.midnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
   ol {
     color: black;
     border: 2px solid rgb(73, 72, 73);

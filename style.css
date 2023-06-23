@@ -127,25 +127,28 @@ li a:hover {
 }
 
 .sec{
-  width: 300px;
+  /*width: 300px;
   height: 100px;  
-  padding: 50px;
+  padding: 50px;*/
+  border-radius: 10px;
   border: 1px solid red;
   overflow: hidden;
 }
 
 .secc{
-  width: 300px;
+  /*width: 300px;
   height: 100px;  
-  padding: 50px;
+  padding: 50px;*/
   border: 1px solid red;
   overflow: hidden;
+  border-radius: 10px;
 }
 
 .first{
-  width: 300px;
+  /*width: 300px;
   height: 100px;  
-  padding: 50px;
+  padding: 50px;*/
   border: 1px solid red;
   overflow: hidden;
+  border-radius: 10px;
 }

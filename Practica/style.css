@@ -1,0 +1,147 @@
+@media screen and (max-width: 600px) {
+  ul li.right, 
+  ul li {float: none;}
+}
+
+
+@media(min-width:468px){
+  span,  
+  li {
+    color: aliceblue;
+    /* border: 2px solid blue; */
+    padding: .5em;
+    
+  }
+}
+.espn{
+    color: aliceblue;
+    background-color: red;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  justify-content: space-around;
+}
+
+/* Style the topnav links */
+.topnav a {
+  
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  justify-content: space-around;
+}
+body{
+  background-color: rgb(250, 248, 248);
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.midnav {
+  overflow: hidden;
+  background-color: white;
+  justify-content: space-around;
+}
+
+.midnav a{
+  float: left;
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  justify-content: space-around;
+}
+
+.midnav a:hover{
+  background-color:#ddd;
+  color: black;
+}
+.container{
+  flex-direction:column;
+  display: inline-flex;
+  justify-content: center;
+  height: 1000px;
+  width: 600px;
+  width:auto;
+}
+
+.container1{
+  flex-direction:column;
+  display: inline-flex;
+  justify-content: flex-start;
+  width: 200px;
+  height: 500px;
+  border: 1px solid rgb(27, 25, 25);
+}
+.container2{
+  flex-direction:column;
+  display: inline-flex;
+  justify-content: flex-end;
+  height: 500px;
+  width: 200px;
+  border: 1px solid rgb(27, 25, 25);
+}
+
+
+div.sec{
+background-color: white;
+width: 600px;
+height: 400px;  
+padding: 50px;
+border-radius: 10px;
+border: 1px solid rgb(27, 25, 25);
+overflow: hidden;
+top: 1px;
+}
+
+
+div.ter{
+  background-color: white;
+
+  width: 600px;
+  height: 100px;  
+  padding: 50px;
+  border: 1px solid rgb(39, 39, 39);
+  overflow: hidden;
+  border-radius: 10px;
+  position: -webkit-sticky;
+  position:sticky;
+  top: 1px;
+}
+
+.first{
+  background-color: white;
+  position: -webkit-sticky;
+  position:sticky;
+  width: 600px;
+  height: 100px;  
+  padding: 50px;
+  border: 1px solid rgb(61, 61, 61);
+  overflow: hidden;
+  border-radius: 10px;
+  top: 1px;
+}
+
+.box {
+  display: inline-block;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+  background: grey;
+  color: white;
+}
+ 
+#three{
+
+  width: 500px;
+  height: 700px;
+}

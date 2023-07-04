@@ -10,10 +10,32 @@ input{
     padding-right: 10px;
     box-sizing: border-box;
 }
-
+h1{
+    border: 1px black solid;
+    border-radius: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+}
 button{
     color: white;
     background-color: green;
     
 
+}
+body{
+   /* background-color: black;
+*/}
+#input-btn{
+    margin: 10px;
+}
+
+#input-el,#direccion,#nombre,#apellido,#telefono,#email,#pais,#provincia,#ciudad,#sexo{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    margin: 10px;
+    width: 600px;
 }
